@@ -1,0 +1,59 @@
+.desktop_visit {
+    text-align: center;
+    overflow: hidden;
+  }
+  .desktop_visit h1 {
+    color: #003366;
+    font-size: 56px;
+    font-family: sans-serif;
+  }
+  .desktop_visit small {
+    color: #003366;
+    font-family: sans-serif;
+  }
+  .visit_columns{
+    margin-top: 1%;
+    display: flex;
+    align-items: center; /* Vertically align the content */
+    justify-content: space-between; /* Horizontally center the content */
+    width: 100%;
+    gap: 20px;
+    padding: 20px; /* Add padding to the container */
+    
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+  }
+  .column {
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(245, 245, 220, 0.7)), url(../public/images/visitbg.jpeg);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    color: #003366;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px; /* Add padding to the columns */
+    box-sizing: border-box; /* Ensures padding doesn't affect overall width */
+  }
+  
+
+  
+.visit_images{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+justify-content: center;
+align-items: center;
+}
+.visit_image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+  /* Vertical line styling */
+  .line {
+    width: 3px;
+    background-color: #FFD700;
+    height: 250px/* Make it stretch vertically */
+   
+  }
+  
