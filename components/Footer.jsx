@@ -19,10 +19,10 @@ export default function Footer() {
           <div className={styles.footer_section}>
             <h2 className={styles.footer_title}>Quick Links</h2>
             <ul className={styles.footer_links}>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/packages">Packages</a></li>
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
 

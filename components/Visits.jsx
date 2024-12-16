@@ -25,9 +25,9 @@ export default function Visits() {
                     <div className={styles.desktop_visit}>
                         <h1>Key Visits</h1>
                         <small>Here are few of those spots, we are going to visit in our <b>Zyarat</b> </small>
-                        <div className={styles.visit_columns}>
+                        <div className={isNotMobile ? styles.visit_columns:styles.mobile_visit_columns}>
 
-                            <div className={`${styles.column} ${styles.visit_images}`}>
+                            <div className={`${isNotMobile ? styles.column : styles.mobile_column} ${styles.visit_images}`}>
                                 <div>
                                     <img className={`${styles.visit_image}`} src={Makkah.src} alt="Makkah" />
                                     <p>BAITULLAH Sharif</p>
@@ -61,9 +61,9 @@ export default function Visits() {
                             </div>
 
                             {/* Vertical line */}
-                            <div className={styles.line}><span>.</span></div>
+                            <div className={isNotMobile?styles.line:styles.mobile_line}><span>.</span></div>
                             {/* MEDINAH */}
-                            <div className={`${styles.column} ${styles.visit_images}`}>
+                            <div className={`${isNotMobile ? styles.column : styles.mobile_column} ${styles.visit_images}`}>
 
                                 <div>
                                     <img className={`${styles.visit_image}`} src={Medinah.src} alt="Makkah" />
