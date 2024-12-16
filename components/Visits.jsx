@@ -16,12 +16,11 @@ import Badr from '../public/images/badr.png'
 export default function Visits() {
     const [isNotMobile, setIsNotMobile] = useState(false);
     useEffect(() => {
-        setIsNotMobile(window.innerWidth >= 600);
+        setIsNotMobile(window.innerWidth >= 760);
     });
     return (
         <div>
-            {
-                isNotMobile ? (
+           
 
                     <div className={styles.desktop_visit}>
                         <h1>Key Visits</h1>
@@ -100,10 +99,7 @@ export default function Visits() {
                             </div>
                         </div>
                     </div>
-                ) : (
-                    <div></div>
-                )
-            }
+                
         </div>
     )
 }

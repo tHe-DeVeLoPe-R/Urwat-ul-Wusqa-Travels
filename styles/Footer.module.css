@@ -3,6 +3,7 @@
     color: #ffffff;
     padding: 40px 20px;
     overflow: hidden;
+    margin-top: 5%;
   }
   
   .footer_container {
@@ -59,12 +60,16 @@
   .footer_contact li {
     margin-bottom: 10px;
   }
-  
+  .footer_contact a {
+    color: white;
+  }
   .footer_socials {
     display: flex;
     gap: 10px;
   }
-  
+  .footer_socials a{
+    color: white;
+  }
   .social_icon {
     width: 30px;
     height: 30px;

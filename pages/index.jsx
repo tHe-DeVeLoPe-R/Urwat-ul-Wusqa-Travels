@@ -1,6 +1,6 @@
 import Visits from '@/components/Visits';
 import Header from '../components/Header.jsx'; // Importing a component
-import Mission from '../components/Mission';
+import Mission from '../components/Mission.jsx';
 import Nav from '@/components/Nav';
 import Services from '@/components/Services.jsx';
 import Footer from '@/components/Footer.jsx';

@@ -1,0 +1,215 @@
+.desktop_cp_main {
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mobile_cp_main{
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cp_form_div {
+
+    width: 90%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cp_mobile_form_div {
+
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cp_mobile_form_div h1 {
+    line-height: 1rem;
+    margin-top: 7%;
+    color: #003366;
+    align-items: center;
+}
+
+.cp_form_div h1 {
+    line-height: 1rem;
+    margin-top: 5%;
+    color: #003366;
+    align-items: center;
+}
+
+.cp_form {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  
+    width: 70%;
+    padding: 20px;
+}
+.cp_mobile_form {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+      width: 90%;
+    padding: 20px;
+   
+}
+
+.cp_form input,
+.cp_form select {
+    width: 55%;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #003366;
+    padding: 2px 2px 2px 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #003366;
+  text-align: center;
+}
+
+.cp_mobile_form input,
+.cp_mobile_form select {
+    width: 80%;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #003366;
+    padding: 2px 2px 2px 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #003366;
+  text-align: center;
+}
+.cp_form input:focus {
+    outline: none;
+}
+
+.cp_form ::placeholder {
+    color: #4c76a0;
+}
+
+.cp_mobile_form input:focus {
+    outline: none;
+}
+
+.cp_mobile_form ::placeholder {
+    color: #4c76a0;
+}
+.cta_button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #FFD700; /* Gold button */
+    color: #003366; /* Navy Blue text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cta_mobile_button {
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    background-color: #FFD700; /* Gold button */
+    color: #003366; /* Navy Blue text */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta_button:hover {
+    background-color: #F5F5DC; /* Light Beige on hover */
+    color: #003366; /* Navy Blue on hover */
+}
+.cta_mobile_button:hover {
+    background-color: #F5F5DC; /* Light Beige on hover */
+    color: #003366; /* Navy Blue on hover */
+}
+.cp_loading{
+    width: 50px;
+}
+.warning{
+    color: red;
+    font-family: sans-serif;
+}
+
+.summary_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 3%;
+}
+.mobile_summary_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+   
+}
+.summary_div h1{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.pkg_summary{
+    width: 30%;
+    gap: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    border-radius: 3px;
+    background-color: #003366;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 128, 0.4); /* Navy blue shadow */
+    transition: all 0.5s ease-in-out;
+}
+.mobile_pkg_summary{
+    width: 90%;
+    gap: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    border-radius: 3px;
+    background-color: #003366;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 128, 0.4); /* Navy blue shadow */
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 5%;
+}
+.priceTable{
+    margin-top: 2%;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+}
+.priceTable td, .priceTable th {
+ background-color: #003366;
+ padding: 10px;
+ text-align: center;
+ border-radius: 3px;
+
+}
+
+.pkg_summary:hover{
+    transform: scale(1.03);
+    transition: 0.3s ease-in-out;
+}
+
+.priceTable:hover{
+    transform: scale(1.03);
+    transition: 0.3s ease-in-out;
+}

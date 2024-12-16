@@ -1,0 +1,128 @@
+.package_main {
+    margin-top: 0%;
+    width: 100%;
+  
+}
+
+.package_heading {
+    margin-top: 5%;
+    font-size: 47px;
+    color: #003366;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 0;
+    line-height: 0.5;
+}
+.mobile_package_heading {
+    margin-top: 10%;
+    font-size: 37px;
+    color: #003366;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 0;
+    line-height: 0.5;
+}
+
+.package_main small{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 0;
+    color: #003366;
+}
+.package_cards{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    padding-bottom: 50px;
+    gap: 50px;
+}
+.mobile_package_cards{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.package_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    font-family: sans-serif;
+    color: #003366;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0px 20px 15px 20px;
+    background: linear-gradient(135deg, rgba(72, 0, 254, 0.398), rgba(247, 34, 240, 0.53));
+    backdrop-filter: blur(10px);
+   transition: all 0.7s ease-in-out;
+}
+.package_content{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.package_card h1{
+    line-height: 2;
+  
+    color: white;
+}
+.package_card:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.package_card a{
+    text-decoration: none;
+}
+.whatsapp_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(6, 56, 255, 0.495), rgba(136, 2, 253, 0.535));
+    color: #fff;
+    border: none;
+    border-radius: 10px; /* Rounded button */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none; /* Remove underline for <a> tag */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-family: sans-serif;
+}
+
+.whatsapp_button img {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
+}
+.custom_package{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    color: #003366;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.mobile_custom_package{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #003366;
+    font-family: sans-serif;
+    font-size: 14px;
+}

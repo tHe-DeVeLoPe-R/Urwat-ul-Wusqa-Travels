@@ -1,0 +1,103 @@
+
+/* Table Container */
+.tableContainer {
+    margin-top: 5%;
+    background: linear-gradient(135deg, rgba(251, 255, 0, 0.438), rgba(144, 5, 237, 0.621));
+    padding: 15px;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin-left: 3.5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 3%;
+  }
+  .mobile_tableContainer {
+    margin-top: 10%;
+    background: linear-gradient(135deg, rgba(251, 255, 0, 0.438), rgba(144, 5, 237, 0.621));
+    padding-top: 3%;
+    width: 98%;
+    text-align: center;
+    border-radius: 5px;
+    font-family: sans-serif;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 10%;
+  }
+  .tableContainer h2{
+    
+    color: #003366;
+  }
+  .mobile_tableContainer h2{
+   
+    color: #003366;
+  }
+  /* Table Header */
+  .table {
+    width: 100%;
+    position: relative;
+    font-family: sans-serif;
+  }
+  
+  .th {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 15px;
+    text-wrap: true;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+  }
+  .th_mobile {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    padding: 7px;
+    text-wrap: true;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+  }
+  
+  /* Completed Groups - Soft Gold Color */
+  .completedGroup {
+    background-color: #e1c16f; /* Lighter Soft Gold */
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  /* Currently Open Groups - Dark Blue Color */
+  .openGroup {
+    background-color: #004285; /* Lighter Dark Blue */
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  /* Table Data */
+  .td {
+    text-wrap: true;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    font-family: sans-serif;
+  }
+
+  .td_mobile {
+    text-wrap: true;
+    padding: 7px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    font-family: sans-serif;
+  }
+
+
+  

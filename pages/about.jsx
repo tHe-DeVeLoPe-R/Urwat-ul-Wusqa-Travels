@@ -1,11 +1,14 @@
+import AboutUs from "@/components/AboutUs";
+import Footer from "@/components/Footer";
+import Nav from "@/components/Nav";
+
 export default function About() {
     return (
-      <header>
-        <h1>My Awesome About</h1>
-        <nav>
-          <a href="/">Home</a> | <a href="/about">Contact</a> | <a href="/contact">Contact</a>
-        </nav>
-      </header>
+      <div>
+        <Nav/>
+        <AboutUs/>
+        <Footer/>
+      </div>
     );
   }
   

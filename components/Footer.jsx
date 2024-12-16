@@ -32,7 +32,7 @@ export default function Footer() {
             <ul className={styles.footer_contact}>
               <li><strong>Email:</strong> <a href="mailto:zafarkel1056@gmail.com">zafarkel1056@gmail.com</a></li>
               <li><strong>Phone:</strong> <a href="tel:+923004965615">+92 300 4965 615</a></li>
-              <li><strong>Address:</strong> First floor, Ali Plaza, Nia Bazar, Jaranwala, Punjab, Pakistan</li>
+              <li><strong>Address:</strong> First floor, Ali Plaza, Jaranwala, Faisalabad, Pakistan</li>
             </ul>
           </div>
 
@@ -41,16 +41,14 @@ export default function Footer() {
             <h2 className={styles.footer_title}>Follow Us</h2>
             <div className={styles.footer_socials}>
               <a href="#" aria-label="Facebook">
-                <img src="/images/facebook-icon.png" alt="Follow us on Facebook" className={styles.social_icon} />
+              Facebook
               </a>
-              <a href="#" aria-label="Twitter">
-                <img src="/images/twitter-icon.png" alt="Follow us on Twitter" className={styles.social_icon} />
-              </a>
+            
               <a href="#" aria-label="Instagram">
-                <img src="/images/instagram-icon.png" alt="Follow us on Instagram" className={styles.social_icon} />
+              Instagram
               </a>
               <a href="#" aria-label="LinkedIn">
-                <img src="/images/linkedin-icon.png" alt="Follow us on LinkedIn" className={styles.social_icon} />
+             LinkedIn
               </a>
             </div>
           </div>
@@ -59,7 +57,7 @@ export default function Footer() {
         {/* Legal Section */}
         <div className={styles.footer_legal}>
           <p>&copy; 2024 Urwat il Wusqa. All Rights Reserved.</p>
-          <p>Company License #8488 | Main Office: Ali Plaza, Nia Bazar, Jaranwala, Punjab, Pakistan</p>
+          <p>Company License #8488 | Main Office: Ali Plaza, Jaranwala, Faisalabad, Pakistan</p>
           <ul className={styles.footer_legal_links}>
             <li><a href="#privacy-policy">Privacy Policy</a></li>
             <li><a href="#terms-conditions">Terms & Conditions</a></li>
