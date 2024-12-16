@@ -67,7 +67,7 @@ export default function Visits() {
 
                                 <div>
                                     <img className={`${styles.visit_image}`} src={Medinah.src} alt="Makkah" />
-                                    <p>Masjid E Nabvi Shareef</p>
+                                    <p>Haram Shareef</p>
                                 </div>
                                 {/* -------------------------- */}
                                 <div>
