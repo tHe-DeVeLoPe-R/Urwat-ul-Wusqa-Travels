@@ -21,6 +21,7 @@ export default function Footer() {
             <ul className={styles.footer_links}>
               <li><a href="/">Home</a></li>
               <li><a href="/packages">Packages</a></li>
+              <li><a href="/custompackage">PackageCalculator</a></li>
               <li><a href="/about">About Us</a></li>
               <li><a href="/contact">Contact</a></li>
             </ul>
@@ -36,22 +37,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Social Media Section */}
-          <div className={styles.footer_section}>
-            <h2 className={styles.footer_title}>Follow Us</h2>
-            <div className={styles.footer_socials}>
-              <a href="#" aria-label="Facebook">
-              Facebook
-              </a>
-            
-              <a href="#" aria-label="Instagram">
-              Instagram
-              </a>
-              <a href="#" aria-label="LinkedIn">
-             LinkedIn
-              </a>
-            </div>
-          </div>
+        
         </div>
 
         {/* Legal Section */}

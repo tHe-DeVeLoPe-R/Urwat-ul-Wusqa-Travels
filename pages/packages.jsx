@@ -73,7 +73,7 @@ export default function packages() {
         }
 
       </div>
-      <div className={isNotMobile? styles.custom_package: styles.mobile_custom_package}>You can create any custom package by clicking &nbsp;<a href="/custompackage">Create My Custom Package</a></div>
+      <div className={isNotMobile? styles.custom_package: styles.mobile_custom_package}> <button className= {isNotMobile ? styles.cta_button : styles.mobile_cta_button} onClick={null}>Package Calculator</button></div>
       <div className={isNotMobile? styles.custom_package: styles.mobile_custom_package}> Need any specific Hotel? &nbsp;
       <a 
         href={`https://wa.me/+923004965615`}

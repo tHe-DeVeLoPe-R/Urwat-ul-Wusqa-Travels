@@ -42,6 +42,7 @@ export default function Nav() {
         <ul>
           <li className={styles.sideMenuItem}><a href="/">Home</a></li>
           <li className={styles.sideMenuItem}><a href="/packages">Packages</a></li>
+          <li className={styles.sideMenuItem}><a href="/custompackage">Package Calculator</a></li>
           <li className={styles.sideMenuItem}><a href="/announcement">Timeline</a></li>
           <li className={styles.sideMenuItem}><a href="/contact">Contact</a></li>
           <li className={styles.sideMenuItem}><a href="/about">About</a></li>

@@ -142,6 +142,6 @@
     width: 100%;
     height: 100vh;
     background-color: #003366;
-    transform: translateX(50%);
+    transform: translateX(38%);
     transition: all 0.75s ease-in-out;
 }
