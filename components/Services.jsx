@@ -48,10 +48,12 @@ export default function Services() {
                                 Baitullah Shareef
 
                             </li>
+                            <li> Masjid E Nabvi Shareef</li>
                                 <li> Hajj Related Zyarat</li>
                                 <li> Hijrat E Nabvi Related </li>
-                                <li> Masjid E Nabvi Shareef</li>
                                 <li> Masjid E Qiblatain</li>
+                                <li> Maidan E Badr</li>
+                                <li> Maidan E Ohud</li>
                                 <li> Masjid E Quba</li>
                                 <li> Almost 10+ Other Zyarat</li>
 
