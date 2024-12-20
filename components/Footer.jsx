@@ -42,7 +42,7 @@ export default function Footer() {
 
         {/* Legal Section */}
         <div className={styles.footer_legal}>
-          <p>&copy; 2024 Urwat il Wusqa. All Rights Reserved.</p>
+          <p>&copy; 2024 Urwat ul Wusqa. All Rights Reserved.</p>
           <p>Company License #8488 | Main Office: Ali Plaza, Jaranwala, Faisalabad, Pakistan</p>
           <ul className={styles.footer_legal_links}>
             <li><a href="#privacy-policy">Privacy Policy</a></li>
