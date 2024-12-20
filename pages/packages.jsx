@@ -3,11 +3,11 @@ import React from 'react'
 import styles from '../styles/Packages.module.css'
 import Footer from '@/components/Footer'
 import { useState, useEffect } from 'react'
-
+import { useRouter } from 'next/router'
 export default function packages() {
 
   const [isNotMobile, setIsNotMobile] = useState(false);
-
+  const router = useRouter()
   useEffect(()=>{
     setIsNotMobile(window.innerWidth >= 760);
   })
@@ -52,7 +52,7 @@ export default function packages() {
       <div className={isNotMobile ? styles.package_cards : styles.mobile_package_cards}>
         {
           packages.map((item, index) => (
-            <div key={index} className={styles.package_card}>
+            <div key={index} className={`${styles.package_card} ${item.Name === 'Economy' ? styles.economy: item.Name === 'Economy Plus' ? styles.economy_plus : styles.premium}`}>
               <h1>{item.Name}</h1>
               <strong className={styles.package_content}>Makkah Moazma: {item.MakkahDist}</strong>
               <strong className={styles.package_content}>Medina Munawra: {item.MakkahDist}</strong>
@@ -73,7 +73,7 @@ export default function packages() {
         }
 
       </div>
-      <div className={isNotMobile? styles.custom_package: styles.mobile_custom_package}> <button className= {isNotMobile ? styles.cta_button : styles.mobile_cta_button} onClick={null}>Package Calculator</button></div>
+      <div className={isNotMobile? styles.custom_package: styles.mobile_custom_package}> <button className= {isNotMobile ? styles.cta_button : styles.mobile_cta_button} onClick={()=>router.push('/custompackage')} >Package Calculator</button></div>
       <div className={isNotMobile? styles.custom_package: styles.mobile_custom_package}> Need any specific Hotel? &nbsp;
       <a 
         href={`https://wa.me/+923004965615`}

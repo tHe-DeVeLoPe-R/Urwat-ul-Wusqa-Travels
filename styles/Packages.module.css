@@ -68,10 +68,11 @@
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 0px 20px 15px 20px;
-    background: linear-gradient(135deg, rgba(72, 0, 254, 0.398), rgba(247, 34, 240, 0.53));
-    backdrop-filter: blur(10px);
+ 
+
    transition: all 0.7s ease-in-out;
 }
+
 .package_content{
     font-family: sans-serif;
     font-size: 15px;
@@ -92,7 +93,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(6, 56, 255, 0.495), rgba(136, 2, 253, 0.535));
+   
     color: #fff;
     border: none;
     border-radius: 10px; /* Rounded button */
@@ -147,3 +148,25 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+.economy{
+    background-color: white;
+ 
+   }
+   .economy h1{
+    color: #003366;
+   }
+   .economy button{
+    background-color: #003366;
+   }
+   .economy_plus{
+    background: linear-gradient(135deg, rgba(72, 0, 254, 0.398), rgba(255, 255, 255, 0.53));
+   }
+   .economy_plus button{
+    background: linear-gradient(135deg, rgba(72, 0, 254, 0.782), rgb(114, 114, 114));
+   }
+   .premium{
+    background: linear-gradient(135deg, rgba(72, 0, 254, 0.536), rgba(255, 242, 5, 0.594));
+   }
+   .premium button{
+    background: linear-gradient(135deg, rgba(72, 0, 254, 0.536), rgb(233, 223, 33));
+   }
