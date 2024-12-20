@@ -198,30 +198,37 @@ export default function CPackage() {
            
             <h1>Select Services</h1>
             <form className={isNotMobile ? styles.cp_form : styles.cp_mobile_form} onSubmit={handleFormSubmit}>
+            <label htmlFor="numOfPersons">Number of persons</label>
               <input
               required
+              id="numOfPersons"
                 type="number"
                 placeholder="Number of Persons"
                 name="numOfPersons"
                 value={formData.numOfPersons}
                 onChange={handleInputChange}
               />
+              <label htmlFor="MakkahNights">Nights in MAKKAH</label>
               <input
               required
+              id="MakkahNights"
                 type="number"
                 placeholder="Nights in Makkah"
                 name="nightsMakkah"
                 value={formData.nightsMakkah}
                 onChange={handleInputChange}
               />
+               <label htmlFor="MedinaNights">Nights in MEDINA</label>
               <input
               required
+              id="MedinaNights"
                 type="number"
                 placeholder="Nights in Medina"
                 name="nightsMedina"
                 value={formData.nightsMedina}
                 onChange={handleInputChange}
               />
+              <label htmlFor="makkahDist">MAKKAH Hotel Distance</label>
               <select
                 name="makkahDist"
                 value={formData.makkahDist}
@@ -233,6 +240,7 @@ export default function CPackage() {
                 <option value="900-1100m">900-1100m</option>
                 <option value="shuttle">With Shuttle</option>
               </select>
+              <label htmlFor="medinaDist">MEDINA Hotel Distance</label>
               <select
                 name="medinaDist"
                 value={formData.medinaDist}
@@ -244,6 +252,7 @@ export default function CPackage() {
                 <option value="900-1100m">900-1100m</option>
                 <option value="shuttle">With Shuttle</option>
               </select>
+              <label htmlFor="transport">Transport</label>
               <select
                 name="transport"
                 value={formData.transport}
@@ -254,6 +263,7 @@ export default function CPackage() {
 
                 <option value="exclude_trans">Exclude Transport</option>
               </select>
+              <label htmlFor="zyarat">Zyarat</label>
               <select
                 name="zyarat"
                 value={formData.zyarat}
@@ -264,7 +274,7 @@ export default function CPackage() {
 
                 <option value="exclude_zyarat">Exclude Zyarat</option>
               </select>
-
+              <label htmlFor="room">Room Type</label>
               <select
                 name="room"
                 value={formData.room}

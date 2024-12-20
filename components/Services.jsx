@@ -68,8 +68,9 @@ export default function Services() {
                         <img src={guide.src} alt="img" />
                             <h1>Guiding Session</h1>
                            
-                            <p>For Guiding session all the participants of the group will be called to Jaranwala Offiece, where a proper guidance related to Ehram, Manasik and other related things will be given. Your Tickets, Passport and other related documents will be handed over to you in this sesison. In this session you can ask any related queries and any other document related questions. <br />
-                            This session took place almost 1 week before leaving from Pakistan. At the end of the session a meal will also be served as a welcome sign.
+                            <p>For Guiding session all the participants of the group will be called to Jaranwala Offiece, where a proper guidance related to Ehram, Manasik and other related things will be given.  
+                                {isNotMobile ? <p> Your Tickets, Passport and other related documents will be handed over to you in this sesison. In this session you can ask any related queries and any other document related questions. <br />
+                                    This session took place almost 1 week before leaving from Pakistan. At the end of the session a meal will also be served as a welcome sign.</p>: null}
                             </p>
                         </div>
                     </div>
@@ -78,10 +79,10 @@ export default function Services() {
 
                     <div className={isNotMobile? styles.service_item : styles.mobile_service_item}>
                         <div className={isNotMobile?styles.service_item_content:styles.mobile_service_item_content}>
-                        <img src={realtime.src} alt="img" />
+                        <img src={realtime.src} alt="img" /> <br />
                             <h1>Realtime Assistance</h1>
                             
-                            <p>Our CEO, who understands the importance of personal engagement, believes in the power of hands-on guidance. To this end, they travel with the group or personally welcome the passengers at their destination to ensure a smooth transition into their spiritual journey. This unique approach allows for real-time support, fostering a deeper connection with the passengers and enabling a more fulfilling experience.
+                            <p>Our CEO, who understands the importance of personal engagement, travel with the group or personally welcome the passengers at their destination to ensure a smooth transition into their spiritual journey. {isNotMobile ? <p>This unique approach allows for real-time support, fostering a deeper connection with the passengers and enabling a more fulfilling experience.</p>:null}
                             </p>
                         </div>
                     </div>
