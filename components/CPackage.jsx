@@ -120,26 +120,32 @@ export default function CPackage() {
     return Makkah + Medina + TICKET * CONVERSION_RATE + visa + zyarat + SELF;
   }
 
-  const handleFormSubmit = (e) => {
+  const handleFormSubmit = async (e) => {
     setStartGenerating(true);
     e.preventDefault();
-   if(formData.makkahDist.length == 0 || formData.medinaDist.length == 0 || formData.transport.length == 0 || formData.zyarat.length == 0 || formData.room.length == 0){
-    setEmptyWarning(true);
-    setStartGenerating(false);
-   }else{
-    setEmptyWarning(false);
-   
-    setTimeout(() => {
-      setStartGenerating(false);
-    }, 3000);
-     
-    const singleCalculatedPrice = createPackage(formData, prices);
-    setSinglePrice(singleCalculatedPrice);
-    var group_price = singleCalculatedPrice * formData.numOfPersons;
-    setGroupPrice(group_price);
-    setGenerated(true);
-   }
   
+    if (
+      formData.makkahDist.length === 0 ||
+      formData.medinaDist.length === 0 ||
+      formData.transport.length === 0 ||
+      formData.zyarat.length === 0 ||
+      formData.room.length === 0
+    ) {
+      setEmptyWarning(true);
+      setStartGenerating(false);
+    } else {
+      setEmptyWarning(false);
+  
+      // Add a delay before setting setStartGenerating to false
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+      setStartGenerating(false);
+  
+      const singleCalculatedPrice = createPackage(formData, prices);
+      setSinglePrice(singleCalculatedPrice);
+      const group_price = singleCalculatedPrice * formData.numOfPersons;
+      setGroupPrice(group_price);
+      setGenerated(true);
+    }
   };
 
   useEffect(() => {
