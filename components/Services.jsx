@@ -68,7 +68,7 @@ export default function Services() {
                         <img src={guide.src} alt="img" />
                             <h1>Guiding Session</h1>
                            
-                            <p>For Guiding session all the participants of the group will be called to Jaranwala Offiece, where a proper guidance related to Ehram, Manasik and other related things will be given.  
+                            <p>For Guiding session all the participants of the group will be called to Main Offiece, where a proper guidance related to Ehram, Manasik and other related things will be given.  
                                 {isNotMobile ? <p> Your Tickets, Passport and other related documents will be handed over to you in this sesison. In this session you can ask any related queries and any other document related questions. <br />
                                     This session took place almost 1 week before leaving from Pakistan. At the end of the session a meal will also be served as a welcome sign.</p>: null}
                             </p>
