@@ -173,15 +173,15 @@ export default function CPackage() {
              <th colSpan="2" >Price Details</th>
            </tr>
            <tr>
-             <th>Single Person Price</th>
-             <th>For {formData.numOfPersons} persons</th>
+             <th>Single Person Estimated Price</th>
+             <th>Estimated Price For {formData.numOfPersons} persons</th>
            </tr>
          </thead>
          <tbody>
            <tr>
             
-             <td>{singlePrice}</td>
-             <td>{groupPrice}</td>
+             <td>{singlePrice - 10000} - {singlePrice + 10000}</td>
+             <td>{groupPrice - 10000} - {groupPrice + 10000}</td>
            </tr>
            
          </tbody>
