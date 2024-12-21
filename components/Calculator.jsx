@@ -19,8 +19,7 @@ export default function Calculator() {
               </div>
   
              {isNotMobile ?  <div className={styles.line}><span>.</span></div> : null}
-             
-  
+              
               <div className={isNotMobile? styles.column: styles.mobile_column}>
                 <p>
                 Plan your perfect Umrah journey with ease using our Umrah Package Calculator. This unique feature allows you to create a custom Umrah package tailored to your specific needs and preferences. Simply input your requirements, such as the number of travelers, accommodation preferences, and our calculator will provide a detailed cost estimate for current date. 
