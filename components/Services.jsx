@@ -82,7 +82,7 @@ export default function Services() {
                         <img src={realtime.src} alt="img" /> <br />
                             <h1>Realtime Assistance</h1>
                             
-                            <p>Our CEO, who understands the importance of personal engagement, travel with the group or personally welcome the passengers at their destination to ensure a smooth transition into their spiritual journey. {isNotMobile ? <p>This unique approach allows for real-time support, fostering a deeper connection with the passengers and enabling a more fulfilling experience.</p>:null}
+                            <p>Our COO, who understands the importance of personal engagement, travel with the group or personally welcome the passengers at their destination to ensure a smooth transition into their spiritual journey. {isNotMobile ? <p>This unique approach allows for real-time support, fostering a deeper connection with the passengers and enabling a more fulfilling experience.</p>:null}
                             </p>
                         </div>
                     </div>

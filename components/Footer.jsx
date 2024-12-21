@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from '../styles/Footer.module.css';
-
+import wa from '../public/images/wa.svg';
+import imo from '../public/images/imo.svg';
+import gmail from '../public/images/gmail.svg';
 export default function Footer() {
   return (
     <>
@@ -31,8 +33,17 @@ export default function Footer() {
           <div className={styles.footer_section}>
             <h2 className={styles.footer_title}>Contact Us</h2>
             <ul className={styles.footer_contact}>
-              <li><strong>Email:</strong> <a href="mailto:zafarkel1056@gmail.com">zafarkel1056@gmail.com</a></li>
-              <li><strong>Phone:</strong> <a href="tel:+923004965615">+92 300 4965 615</a></li>
+              <li><img className= {styles.f_img} src={gmail.src} alt="whatsapp" /> <a href="mailto:zafarkel1056@gmail.com">zafarkel1056@gmail.com</a></li>
+              <li>
+                <img className= {styles.f_img} src={wa.src} alt="whatsapp" />
+              <a href={`https://wa.me/+923004965615`}>+92 300 4965 615</a></li>
+              <li>
+                <img className= {styles.f_img} src={wa.src} alt="whatsapp" />
+              <a href={`https://wa.me/+923265416017`}>+92 326 5416 017</a></li>
+
+              <li>
+                <img className= {styles.f_img} src={imo.src} alt="whatsapp" />
+              +92 304 7922 787</li>
               <li><strong>Address:</strong> First floor, Ali Plaza, Jaranwala, Faisalabad, Pakistan</li>
             </ul>
           </div>

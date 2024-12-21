@@ -30,6 +30,7 @@
   .footer_text {
     font-size: 16px;
     line-height: 1.6;
+    padding-right: 10px;
   }
   
   .footer_links {
@@ -39,8 +40,16 @@
   
   .footer_links li {
     margin-bottom: 8px;
+    
   }
-  
+  .footer_contact li{
+    display: flex; 
+    gap: 10px;
+  }
+  .f_img {
+   width: 20px;
+   height: 20px;
+  }
   .footer_links a {
     color: #ffffff;
     text-decoration: none;
