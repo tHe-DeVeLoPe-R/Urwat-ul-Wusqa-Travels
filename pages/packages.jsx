@@ -74,7 +74,7 @@ export default function packages() {
 
       </div>
       <div className={isNotMobile? styles.custom_package: styles.mobile_custom_package}> <button className= {isNotMobile ? styles.cta_button : styles.mobile_cta_button} onClick={()=>router.push('/custompackage')} >Package Calculator</button></div>
-      <div className={isNotMobile? styles.custom_package: styles.mobile_custom_package}> Need any specific Hotel? &nbsp;
+      <div className={isNotMobile? styles.custom_package: styles.mobile_custom_package}> Need any specific Service? &nbsp;
       <a 
         href={`https://wa.me/+923004965615`}
         target="_blank"

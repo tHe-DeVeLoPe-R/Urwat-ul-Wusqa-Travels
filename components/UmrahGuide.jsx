@@ -55,13 +55,13 @@ export default function UmrahGuide() {
         {
             'step': 'STEP 5',
             'heading': 'Tawaf E Kaaba',
-            'guide': 'Now after doing iztibah you will ready for Tawaf. Tawaf has 7 rounds around Baitullah Shareef and each round will start from Hijr e Aswad after doing Istlam and each round will ends at Hijr e Aswad after Istlam. If you find proper space then you can do Ramal (Move Like ?) in first 3 rounds. So it will contain 7 rounds and 8 times Istlam. Like you should finish 7th round after saying Istlam. We will see what is Istlam in next step.',
+            'guide': 'Now after doing iztibah you will ready for Tawaf. Tawaf has 7 rounds around Baitullah Shareef and each round will start from Hijr e Aswad after doing Istlam and each round will ends at Hijr e Aswad after Istlam. If you find proper space then you can do Ramal (Move With Proud Like Wrestlers) in first 3 rounds. So it will contain 7 rounds and 8 times Istlam. Like you should finish 7th round after saying Istlam. We will see what is Istlam in next step.',
             'image': tawafgif,
         },
         {
             'step': 'STEP 6',
             'heading': 'Do Istlam',
-            'guide': 'While tawaf rounds when you reach in front of Hijr e Aswad you are required to do Istlam. Due to huge gathering around Hijr e Aswad it is allowed to say Bismillah Allah Ho Akbar by pointing both hands towrds Hijre Aswad. It is where your round of tawaf will start and end. You will also see a green light on your right side when you reahc close to Hijre Aswad Corner that green light shows that you are in front of Hihre Aswad now.',
+            'guide': 'While tawaf rounds when you reach in front of Hijr e Aswad you are required to do Istlam. Due to huge gathering around Hijr e Aswad it is allowed to say Bismillah Allah Ho Akbar by pointing both hands towrds Hijre Aswad. It is where your round of tawaf will start and end. You will also see a green light on your right side when you reach close to Hijre Aswad Corner that green light shows that you are in front of Hihre Aswad now.',
             'image': istlam,
         },
         {
@@ -139,7 +139,7 @@ export default function UmrahGuide() {
                         In Safa & Marwa they are not supposed to run in green light areas.
                     </li>
                     <li>
-                        They are not supposed to shave complete heads. Just cut almost 2-3cm of hair from bottom.
+                        They are not supposed to shave complete heads. Just cut almost 0.5 - 0.8cm of hair from bottom.
                     </li>
                   </ul>
                 </div>

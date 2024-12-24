@@ -3,6 +3,8 @@ import styles from '../styles/Footer.module.css';
 import wa from '../public/images/wa.svg';
 import imo from '../public/images/imo.svg';
 import gmail from '../public/images/gmail.svg';
+import ptcl from '../public/images/ptcl.svg';
+
 export default function Footer() {
   return (
     <>
@@ -26,6 +28,7 @@ export default function Footer() {
               <li><a href="/custompackage">PackageCalculator</a></li>
               <li><a href="/about">About Us</a></li>
               <li><a href="/contact">Contact</a></li>
+              <li><a href="/guide">Umrah Guide Steps</a></li>
             </ul>
           </div>
 
@@ -33,7 +36,7 @@ export default function Footer() {
           <div className={styles.footer_section}>
             <h2 className={styles.footer_title}>Contact Us</h2>
             <ul className={styles.footer_contact}>
-              <li><img className= {styles.f_img} src={gmail.src} alt="whatsapp" /> <a href="mailto:zafarkel1056@gmail.com">zafarkel1056@gmail.com</a></li>
+              <li><img className= {styles.f_img} src={gmail.src} alt="gmail" /> <a href="mailto:zafarkel1056@gmail.com">zafarkel1056@gmail.com</a></li>
               <li>
                 <img className= {styles.f_img} src={wa.src} alt="whatsapp" />
               <a href={`https://wa.me/+923004965615`}>+92 300 4965 615</a></li>
@@ -42,8 +45,11 @@ export default function Footer() {
               <a href={`https://wa.me/+923265416017`}>+92 326 5416 017</a></li>
 
               <li>
-                <img className= {styles.f_img} src={imo.src} alt="whatsapp" />
+                <img className= {styles.f_img} src={imo.src} alt="imo" />
               +92 304 7922 787</li>
+              <li>
+                <img className= {styles.f_img} src={ptcl.src} alt="ptcl" />
+              041 4711 666</li>
               <li><strong>Address:</strong> First floor, Ali Plaza, Jaranwala, Faisalabad, Pakistan</li>
             </ul>
           </div>
