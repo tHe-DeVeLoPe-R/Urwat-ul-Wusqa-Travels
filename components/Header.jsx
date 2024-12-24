@@ -22,7 +22,8 @@ export default function Header() {
             <h3 className={styles.header_subtitle}>
               "Embark on a Spiritual Journey Like Never Before"
             </h3>
-            <button onClick={()=>router.push('/packages')} className={isNotMobile ? styles.cta_button : styles.mobile_cta_button}>Explore Packages</button>
+            <button onClick={()=>router.push('/packages')} className={isNotMobile ? styles.cta_button : styles.mobile_cta_button}>Explore Packages</button> <br /> <br />
+            <button onClick={()=>router.push('/guide')} className={isNotMobile ? styles.cta_button : styles.mobile_cta_button}>Umrah Guide Steps</button>
           </div>
         
       </div>

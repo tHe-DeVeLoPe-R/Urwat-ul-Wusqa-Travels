@@ -1,0 +1,117 @@
+.desktop_guide_header{
+
+}
+
+.mobile_guide_header{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(245, 245, 220, 0.7)), url(../public/images/guideheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #003366;
+    font-family: sans-serif;
+}
+.mobile_guide_header h1{
+    line-height: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 37px;
+}
+.mobile_guide_header h4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.5rem;
+}
+.mobile_guide_header p{
+    padding-left: 13px;
+    padding-right: 13px;
+    line-height: 1.5rem;
+}
+.mobile_guide_steps{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mobile_guide_step{
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  
+}
+.mobile_guide_step h3{
+    color: #003366;
+    margin-top: 20px;
+    font-family: sans-serif;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.mobile_guide_step h1{
+    color: #003366;
+    margin-top: 20px;
+    font-family: sans-serif;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.mobile_guide_step strong{
+    color: #003366;
+    margin-top: 20px;
+    font-family: sans-serif;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.mobile_guide_step p{
+    color: #003366;
+    font-family: sans-serif;
+    text-align: center;
+}
+.mobile_guide_step img{
+    width: 250px;
+   border-radius: 5px;
+    text-align: center;
+}
+.mobile_guide_video{
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+  
+}
+
+.complete_msg{
+    padding: 10px;
+    text-align: center;
+    color: green;
+    font-family: sans-serif;
+}
+.women_differ{
+    font-family: sans-serif;
+    color: #003366;
+}
+.women_differ_list ul{
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    color: #003366;
+}
+.not_to_do{
+    color: red;
+    font-family: sans-serif;
+    margin-bottom: 0px;
+}
+.not_to_do_mobile{
+  list-style: armenian;
+}
+.not_to_do_mobile ul{
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    color: #003366;
+  }
