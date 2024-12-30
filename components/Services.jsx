@@ -23,14 +23,14 @@ export default function Services() {
                             <h1>Transport</h1>
                           
                              <ol><li>
-                                Jaranwala Offiece to Lahore Airport
+                                Main Office to Lahore Airport
 
                             </li>
                                 <li> Jeddah Airport to Makkah Hotel</li>
                                 <li> Makkah Hotel to Medinah Hotel</li>
                                 <li> Medinah Hotel to Makkah Hotel</li>
                                 <li> Makkah Hotel to Jeddah Airport</li>
-                                <li> Lahore Airport to Jaranwala Offiece</li>
+                                <li> Lahore Airport to Main Office</li>
                                 <li> Zyarat transport also included</li>
 
                             </ol>
@@ -68,7 +68,7 @@ export default function Services() {
                         <img src={guide.src} alt="img" />
                             <h1>Guiding Session</h1>
                            
-                            <p>For Guiding session all the participants of the group will be called to Main Offiece, where a proper guidance related to Ehram, Manasik and other related things will be given.  
+                            <p>For Guiding session all the participants of the group will be called to Main Office, where a proper guidance related to Ehram, Manasik and other related things will be given.  
                                 {isNotMobile ? <p> Your Tickets, Passport and other related documents will be handed over to you in this sesison. In this session you can ask any related queries and any other document related questions. <br />
                                     This session took place almost 1 week before leaving from Pakistan. At the end of the session a meal will also be served as a welcome sign.</p>: null}
                             </p>
