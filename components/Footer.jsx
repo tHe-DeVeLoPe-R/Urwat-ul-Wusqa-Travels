@@ -37,7 +37,9 @@ export default function Footer() {
             <h2 className={styles.footer_title}>Contact Us</h2>
             <ul className={styles.footer_contact}>
               <li><img className= {styles.f_img} src={gmail.src} alt="gmail" /> <a href="mailto:zafarkel1056@gmail.com">zafarkel1056@gmail.com</a></li>
+              <li><img className= {styles.f_img} src={gmail.src} alt="gmail" /> <a href="mailto:urwatilwusqa81@gmail.com">urwatilwusqa81@gmail.com</a></li>
               <li>
+                
                 <img className= {styles.f_img} src={wa.src} alt="whatsapp" />
               <a href={`https://wa.me/+923004965615`}>+92 300 4965 615</a></li>
               <li>
