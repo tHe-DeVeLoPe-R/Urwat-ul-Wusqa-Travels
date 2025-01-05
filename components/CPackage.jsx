@@ -27,6 +27,7 @@ export default function CPackage() {
   const VISA = 485;
   const ZYARAT = 35;
   const SELF = 5000;
+  const DATE = '01 - 01 - 2025';
   const prices = [
     {
       dist: "900-1100m",
@@ -197,6 +198,7 @@ export default function CPackage() {
           <div className={isNotMobile ? styles.cp_form_div : styles.cp_mobile_form_div}>
            
             <h1>Select Services</h1>
+            <small className = {styles.updated}>Updated on : {DATE}</small>
             <form className={isNotMobile ? styles.cp_form : styles.cp_mobile_form} onSubmit={handleFormSubmit}>
             <label htmlFor="numOfPersons">Number of persons</label>
               <input
