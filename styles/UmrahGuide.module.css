@@ -159,6 +159,10 @@
    border-radius: 5px;
     text-align: center;
 }
+.desktop_guide_step p{
+    background: linear-gradient(145deg , rgba(251, 214, 5, 0.83), rgb(240, 239, 239));
+    padding: 15px;
+}
 .mobile_guide_video{
     width: 100%;
     display: flex;
