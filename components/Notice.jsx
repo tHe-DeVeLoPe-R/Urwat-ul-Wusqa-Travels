@@ -10,13 +10,13 @@ export default function Notice() {
 
   const groups = [
     {
-      header: 'November 2023 Group',
+      header: 'November 2024 Group',
       status: 'Completed',
       date: 'Landed on 28 Nov, 2023',
       description: 'Returned safely from Umrah, Alhamdulilah!',
     },
     {
-      header: 'January 2024 Group',
+      header: 'January 2025 Group',
       status: 'Closed',
       date: '19- 01- 2025',
       description: 'January Umrah Group is confirmed/closed and set for departure.',
