@@ -159,6 +159,13 @@
 .desktop_guide_step p{
     background: linear-gradient(145deg , rgba(251, 214, 5, 0.83), rgb(240, 239, 239));
     padding: 15px;
+    line-height: 1.5rem;
+}
+
+.mobile_guide_step p{
+    background: linear-gradient(145deg , rgba(251, 214, 5, 0.83), rgb(240, 239, 239));
+    padding: 15px;
+    line-height: 1.5rem;
 }
 .mobile_guide_video{
     width: 100%;
