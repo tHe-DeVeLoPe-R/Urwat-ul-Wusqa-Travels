@@ -1,15 +1,12 @@
-.desktop_guide_header{
-
-}
 
 .mobile_guide_header{
     width: 100%;
-    height: 45vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(245, 245, 220, 0.7)), url(../public/images/guideheader.jpg);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(245, 245, 220, 0.7)), url(../public/images/headerbg.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,12 +16,12 @@
 
 .desktop_guide_header{
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    background: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(245, 245, 220, 0.7)), url(../public/images/guideheader.jpg);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(245, 245, 220, 0.7)), url(../public/images/headerbg.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
