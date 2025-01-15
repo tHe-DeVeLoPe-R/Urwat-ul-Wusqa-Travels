@@ -21,37 +21,37 @@ export default function CPackage() {
     room: "",
   });
 
-  const CONVERSION_RATE = 74;
-  const TICKET = 2094;
-  const TVISA = 525;
+  const CONVERSION_RATE = 75;
+  const TICKET = 2162;
+  const TVISA = 530;
   const VISA = 485;
   const ZYARAT = 35;
   const SELF = 5000;
-  const DATE = '01 - 01 - 2025';
+  const DATE = '10 - 01 - 2025';
   const prices = [
     {
       dist: "900-1100m",
 
-      MakkahRoom: 13,
-      MedinaRoom: 13,
+      MakkahRoom: 16,
+      MedinaRoom: 16,
     },
     {
       dist: "500-700m",
 
-      MakkahRoom: 31,
-      MedinaRoom: 32,
+      MakkahRoom: 36,
+      MedinaRoom: 35,
     },
     {
       dist: "300-400m",
 
-      MakkahRoom: 48,
-      MedinaRoom: 48,
+      MakkahRoom: 51,
+      MedinaRoom: 51,
     },
     {
       dist: "shuttle",
 
-      MakkahRoom: 13,
-      MedinaRoom: 13,
+      MakkahRoom: 16,
+      MedinaRoom: 16,
     },
   ];
   
