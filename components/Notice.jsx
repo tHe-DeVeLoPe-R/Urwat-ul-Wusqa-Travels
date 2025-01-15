@@ -17,9 +17,9 @@ export default function Notice() {
     },
     {
       header: 'January 2024 Group',
-      status: 'Open',
-      date: 'Tentative date, 2nd Week of January',
-      description: 'January Umrah Group is confirmed and set for departure.',
+      status: 'Closed',
+      date: '19- 01- 2025',
+      description: 'January Umrah Group is confirmed/closed and set for departure.',
     },
   ];
 
