@@ -22,7 +22,7 @@ export default function CPackage() {
   });
 
   const CONVERSION_RATE = 75;
-  const TICKET = 2162;
+  const TICKET = 2229;
   const TVISA = 530;
   const VISA = 485;
   const ZYARAT = 35;
