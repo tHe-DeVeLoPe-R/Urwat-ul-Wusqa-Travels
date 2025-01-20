@@ -17,9 +17,9 @@ export default function packages() {
       'Days': '21 days',
       'MakkahDist': '900/1100m',
       'MedinahDist': '700/900m',
-      'DeptDate': '11-01-2025',
+      'DeptDate': 'Open',
       'ApproxTime': '(18-22 minute walk)',
-      'Price': '220,000 pkr.',
+      'Price': '239,500 pkr.',
     },
     {
       'Name': 'Economy Plus',
@@ -27,8 +27,8 @@ export default function packages() {
       'MakkahDist': '500/700m',
       'MedinahDist': '500/600m',
       'ApproxTime': '(10-12 minute walk)',
-      'DeptDate': '11-01-2025',
-      'Price': '243,000 pkr.',
+      'DeptDate': 'Open',
+      'Price': '270,000 pkr.',
     },
     {
       'Name': 'Premium',
@@ -36,7 +36,7 @@ export default function packages() {
       'MakkahDist': '300/400m',
       'MedinahDist': '250/300m',
       'ApproxTime': '(05-07 minute walk)',
-      'DeptDate': '11-01-2025',
+      'DeptDate': 'Open',
       'Price': '297,000 pkr.',
     },
 
