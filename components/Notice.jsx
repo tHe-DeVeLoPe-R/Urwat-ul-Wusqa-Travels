@@ -19,7 +19,19 @@ export default function Notice() {
       header: 'January 2025 Group',
       status: 'Closed',
       date: '19- 01- 2025',
-      description: 'January Umrah Group is confirmed/closed and set for departure.',
+      description: 'January Umrah Group departed',
+    },
+    {
+      header: 'Semi Ramadan Group',
+      status: 'Open',
+      date: 'First week of Feb',
+      description: 'First week of Ramadan will be included in this group',
+    },
+    {
+      header: 'Ramadan ul Mubarak Group',
+      status: 'Open',
+      date: '27- 02- 2025',
+      description: 'Having limited seats this group registrations are open',
     },
   ];
 
