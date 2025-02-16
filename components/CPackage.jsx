@@ -32,26 +32,26 @@ export default function CPackage() {
     {
       dist: "900-1100m",
 
-      MakkahRoom: 16,
-      MedinaRoom: 16,
+      MakkahRoom: 45,
+      MedinaRoom: 38,
     },
     {
       dist: "500-700m",
 
-      MakkahRoom: 36,
-      MedinaRoom: 35,
+      MakkahRoom: 77,
+      MedinaRoom: 50,
     },
     {
       dist: "300-400m",
 
-      MakkahRoom: 51,
-      MedinaRoom: 51,
+      MakkahRoom: 95,
+      MedinaRoom: 67,
     },
     {
       dist: "shuttle",
 
-      MakkahRoom: 16,
-      MedinaRoom: 16,
+      MakkahRoom: 45,
+      MedinaRoom: 38,
     },
   ];
   
