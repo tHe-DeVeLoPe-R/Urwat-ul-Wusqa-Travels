@@ -27,7 +27,7 @@ export default function CPackage() {
   const VISA = 485;
   const ZYARAT = 35;
   const SELF = 5000;
-  const DATE = '10 - 01 - 2025';
+  const DATE = '10 - 02 - 2025';
   const prices = [
     {
       dist: "900-1100m",
