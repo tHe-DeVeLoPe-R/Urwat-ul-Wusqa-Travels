@@ -13,31 +13,31 @@ export default function packages() {
   })
   const packages = [
     {
-      'Name': 'Economy',
+      'Name': 'Economy (Ramadan)',
       'Days': '21 days',
       'MakkahDist': '900/1100m',
       'MedinahDist': '700/900m',
-      'DeptDate': 'Open',
+      'DeptDate': '27 feb',
       'ApproxTime': '(18-22 minute walk)',
-      'Price': '239,500 pkr.',
+      'Price': '2,85,000 pkr.',
     },
     {
-      'Name': 'Economy Plus',
+      'Name': 'Economy Plus (Ramadan)',
       'Days': '21 days',
       'MakkahDist': '500/700m',
       'MedinahDist': '500/600m',
       'ApproxTime': '(10-12 minute walk)',
-      'DeptDate': 'Open',
-      'Price': '270,000 pkr.',
+      'DeptDate': '27 feb',
+      'Price': '3,10,000 pkr.',
     },
     {
-      'Name': 'Premium',
+      'Name': 'Premium (Ramadan)',
       'Days': '21 days',
       'MakkahDist': '300/400m',
       'MedinahDist': '250/300m',
       'ApproxTime': '(05-07 minute walk)',
-      'DeptDate': 'Open',
-      'Price': '297,000 pkr.',
+      'DeptDate': '27 feb',
+      'Price': '3,40,000 pkr.',
     },
 
   ]
