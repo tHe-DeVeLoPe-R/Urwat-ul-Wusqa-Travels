@@ -17,13 +17,13 @@ export default function Notice() {
     },
     {
       header: 'January 2025 Group',
-      status: 'Departed',
+      status: 'Completed',
       date: '19- 01- 2025',
-      description: 'January Umrah Group departed',
+      description: 'Returned safely from Umrah, Alhamdulilah!',
     },
     {
       header: 'Semi Ramadan Group',
-      status: 'Open',
+      status: 'Departed',
       date: 'First week of Feb',
       description: 'First week of Ramadan will be included in this group',
     },
