@@ -23,15 +23,21 @@ export default function Notice() {
     },
     {
       header: 'Semi Ramadan Group',
-      status: 'Departed',
+      status: 'Returned',
       date: 'First week of Feb',
-      description: 'First week of Ramadan will be included in this group',
+      description: 'First week of Ramadan was included in this group',
     },
     {
       header: 'Ramadan ul Mubarak Group',
-      status: 'Open',
-      date: '27- 02- 2025',
-      description: 'Having limited seats this group registrations are open',
+      status: 'Returned',
+      date: '-',
+      description: 'Alhamdulilahi Returned on 20th Ramadan',
+    },
+    {
+      header: 'Next Group',
+      status: 'Not defined',
+      date: 'No date announced',
+      description: 'Due to Visa issues by Saudi Governement, still no date announced. Stay Tuned...',
     },
   ];
 
