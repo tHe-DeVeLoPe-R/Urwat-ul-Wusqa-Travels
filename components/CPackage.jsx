@@ -24,7 +24,7 @@ export default function CPackage() {
   const CONVERSION_RATE = 75;
   const TICKET = 1933;
   const TVISA = 530;
-  const VISA = 450;
+  const VISA = 550;
   const ZYARAT = 35;
   const SELF = 10000;
   const DATE = '24 - 05 - 2025';
