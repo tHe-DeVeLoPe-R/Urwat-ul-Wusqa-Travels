@@ -34,10 +34,16 @@ export default function Notice() {
       description: 'Alhamdulilahi Returned on 20th Ramadan',
     },
     {
+      header: 'Post Hajj Group',
+      status: 'Completed/Closed',
+      date: 'July, 2025',
+      description: 'In Sha Allah group consiting of 25 Umrah Passengers will depart from Pakistan on July, 2025 with PIA',
+    },
+    {
       header: 'Next Group',
-      status: 'Not defined',
-      date: 'No date announced',
-      description: 'Due to Visa issues by Saudi Governement, still no date announced. Stay Tuned...',
+      status: 'Booking Open',
+      date: 'July 2nd week',
+      description: 'This group has limited number of seats (30-35), and will fly with Saudi Airline, In Sha Allah',
     },
   ];
 
